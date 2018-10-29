@@ -20,6 +20,8 @@
         <a v-for="post in posts" :key="post.id" v-if="$route.name === post.category_slug">
                 <li class="item">
                   <article-list-preview :post="post"></article-list-preview>
+
+                  
                 </li>
               </a>
       </ul>
